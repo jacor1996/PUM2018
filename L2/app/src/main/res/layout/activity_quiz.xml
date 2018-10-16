@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="24dp"
-            android:textSize="18sp"
+            android:textSize="24sp"
             android:textAlignment="center"/>
 
         <LinearLayout
@@ -26,25 +26,28 @@
             android:orientation="horizontal"
             android:gravity="center">
 
-            <Button
+            <ImageButton
                 android:id="@+id/false_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_delete"
                 android:text="False" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/true_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_add"
                 android:text="True" />
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/next_button"
+        <ImageButton
+            android:id="@+id/previous_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/next_button" />
+            android:src="?attr/actionModeCloseDrawable"
+            android:text="@string/previous_button" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

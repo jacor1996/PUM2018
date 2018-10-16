@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">PreviousW</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="correct_toast">Correct!</string>
+
+    <string name="question_stolica_polski">Warszawa jest stolicą Polski.</string>
+    <string name="question_stolica_dolnego_slaska">Oleśnica jest stolicą Dolnego Śląska.</string>
+    <string name="question_sniezka">Śnieżka to najwyższy szczyt Karkonoszy.</string>
+    <string name="question_wisla">Wisła to najdłuższa rzeka w Polsce.</string>
+</resources>
